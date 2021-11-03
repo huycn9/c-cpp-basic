@@ -1,0 +1,22 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+double sum2(int n){
+double sum=0;
+
+for(int i=1;i<=n;i++){
+	int k=1;
+	for(int j=1;j<=i;j++){
+		 k*=j;
+	}
+	sum=sqrt(k+sum);
+}
+return sum;
+} 
+int main(){
+int n;
+cin>>n;
+cout<<sum2(n);
+return 0;
+}
+
