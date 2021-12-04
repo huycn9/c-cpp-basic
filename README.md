@@ -1,2 +1,2 @@
-# learn-c-
+# 1000baitapcpp
 basic and advance
