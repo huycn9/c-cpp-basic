@@ -66,7 +66,7 @@ int ngaybatdaunam(int nam)
 		int s=ngaybatdaunam(nam);
 		for(int j=1;j<thang;j++)
 		{
-			s+=dayofmonth(thang,nam);
+			s+=dayofmonth(j,nam);
 		}
 		return ((s%7)==0?7:(s%7));
 		}
